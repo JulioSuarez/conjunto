@@ -59,7 +59,7 @@ string ConjuntoS::to_str() {
 		int ele = mem->obtener_dato(p, datoCJ); // p->dato;
 		s += lexical_cast<string>(ele);
 		if (c < cant)
-			s = s+",";
+			s += ",";
 		p = mem->obtener_dato(p, linkCJ); // p->sig;
 	}
 	return s + "}";

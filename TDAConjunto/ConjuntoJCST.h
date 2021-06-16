@@ -11,8 +11,8 @@
 #include "boost/lexical_cast.hpp"
 
 using namespace std;
-
 using namespace boost;
+
 const string datosCJ = "dato,link";
 const string datoCJ = "->dato";
 const string linkCJ = "->link";
